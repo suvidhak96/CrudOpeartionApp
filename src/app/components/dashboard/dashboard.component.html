@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row justify-content-between">
+    <div class=" chart col-md-6 ">
+      <apx-chart [series]="columnChartSeries" [chart]="columnChartOptions" [xaxis]="columnChartXAxis"
+        [title]="columnChartTitle">
+      </apx-chart>
+    </div>
+    <div class="chart col-md-5">
+      <h3>User Registrations Over Time</h3> 
+      <apx-chart [series]="lineChartSeries" [chart]="lineChartOptions">
+      </apx-chart>
+    </div>
+  </div>
+
+  <app-table [data]="userData" [isDashboard]='true'></app-table>
+
+</div>

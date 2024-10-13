@@ -1,0 +1,107 @@
+.container {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+ 
+  /* Form Container */
+form {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 70%;
+  margin: auto;
+}
+
+/* Form Inputs and Labels */
+.form-floating .form-control {
+  border-radius: 10px;
+  padding: 18px 15px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.form-floating label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.form-floating input:focus {
+  border-color: #007bff;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+input.form-control {
+  font-size: 1rem;
+  color: #495057;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover Effect on Input */
+input.form-control:hover {
+  background-color: #e9ecef;
+}
+
+/* Error Message Styling */
+.text-danger {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-top: 5px;
+  color: #ff4d4f;
+}
+
+/* Buttons */
+button.btn-primary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button.btn-secondary {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
+
+/* Submit Button Disabled State */
+button[disabled] {
+  background-color: #3d79b4 !important;
+  color: #fff !important;
+  border-color: #ced4da !important;
+  cursor: pointer;
+}
+
+/* Form Row */
+.row.g-3 {
+  gap: 20px;
+}
+
+/* Form Floating Labels */
+.form-floating label {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.form-floating input:focus + label {
+  color: #007bff;
+}
+
+/* Form Hover and Active States */
+form:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+form:active {
+  transform: scale(1.01);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}

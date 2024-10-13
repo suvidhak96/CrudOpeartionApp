@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "firstName": "user 1",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "role": "viewer",
+      "status": "active",
+      "id": "ccf1"
+    },
+    {
+      "id": "9c75",
+      "firstName": "Test",
+      "lastName": "test",
+      "email": "slondhe@novatechset.com",
+      "role": "editor",
+      "status": "active"
+    },
+    {
+      "id": "9698",
+      "firstName": "gv",
+      "lastName": "ghgh",
+      "email": "vb@gmail.com",
+      "role": "admin",
+      "status": "active"
+    }
+  ]
+}
